@@ -1,0 +1,19 @@
+{
+  "name": "helperlib",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "watch -f *.js -r \"node ${p} > index.log\"",
+    "coffee": "watch -f *.coffee -r \"node node_modules/coffeescript/bin/coffee ${p} > test.log\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sugar": "^2.0.6"
+  },
+  "devDependencies": {
+    "cli-watch": "^1.0.7"
+  }
+}
